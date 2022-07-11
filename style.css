@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body{
+    /* border: 1px solid green; */
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    padding-top: 0px;
+    padding-right: 1000px;
+}
+
+.nav ul{
+    margin: 0;
+    display: flex;
+}
+
+.nav li{
+    display: inline; 
+}
+
+.nav a{
+    display: inline-block;   
+    padding-top: 1.9em;  
+    padding-bottom: 1.9em;  
+    padding-left: .9em;  
+    padding-right: .9em;  
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    height: 88px;
+    color: red;
+    background-color: rgb(201, 186, 186,.3);
+}
+
+.main-nav{
+    /* border: 1px solid purple; */
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.main-nav li{
+    padding: 0 2%;
+}
+
+.search-btn{
+    background-color: red;
+    /* margin-right: 760px; */
+    background-size: cover;
+}
+
+.image{
+    background-color: white;
+    background-size: cover;
+    margin-top: 25px;
+    margin-left: 100px;
+    width: 200px;
+    height: 50px;
+}
+
+.main-header{
+    padding-right: 440px;
+    padding-top: 0px;
+    display: flex;
+    border-bottom: 4px solid rgba(198, 210, 211, 0.3);
+}
+
+.material-symbols-outlined.md-36 
+{
+    margin-top: 25px;
+    font-size: 36px; 
+    padding: 0px;
+    color: white;
+    height: 1.2px;
+    box-sizing: border-box;
+}
+
+
+/* main content */
+.heading{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-weight: 400;
+}
+
+.dummy-text{
+    text-align: center;
+}
+
+.index-post {
+    width: 100%; transition: all 1.5s;
+    height: 100%; overflow: hidden; 
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+  
+}
+
+.contener {
+    float: left;
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 341.5px;
+    height: 420px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 0 #00000073;
+    transition: all 0.3s;
+    transform: translateY(-6px);
+    box-shadow: 0 11px 14px rgb(0 0 0 / 25%), 0 8px 20px rgb(0 0 0 / 10%);  
+}
+
+
+.image-contener {
+    display: block;
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+
+.image-contener img {
+    width: 100%;
+}
+
+.meta-contener {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    padding: 10px 20px;
+}
+
+.meta-contener .title {
+    padding: 0;
+    margin: 10px 0;
+    font-size: 22px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.underline{
+    color: black;
+    margin-top: 14px;
+    text-decoration: underline red 3px;
+}
+
+.meta-contener .desc {
+    font-size: 16px;
+    font-weight: 100;
+    color: #373737;
+}
+
+.button1-contener {
+    padding-top: 40px;
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    width: 80%;
+    height: 40px;
+}
+
+.button1-contener span{
+    color: red;
+}
+
+.button1-contener .button {
+    width: 100%;
+    padding: 6px 0;
+    text-decoration: none;
+    color: red;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s;
+
+}
+
+@media screen and (max-width:1124px){
+    .index-post{
+        width: 562px; height: 728px;
+    }
+}
+@media screen and (max-width:562px){
+    .index-post{
+        width: 281px; height: 1496px;
+    }
+}
+
+/* footer  */
+footer{
+    margin-top: 60px;
+    color: black;
+    margin-bottom: 60px;
+}
+
+footer h2{
+    display: inline;
+    margin-right: 90px;
+}
+
+footer h2:first-child{
+    margin-left: 190px;
+}
